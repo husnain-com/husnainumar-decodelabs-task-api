@@ -1,0 +1,19 @@
+{
+  "name": "decodelabs-task-api",
+  "version": "1.0.0",
+  "description": "Task Manager REST API built for DecodeLabs Full Stack Development - Project 2: Backend API Development",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test tests/api.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["express", "rest-api", "backend", "decodelabs"],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
